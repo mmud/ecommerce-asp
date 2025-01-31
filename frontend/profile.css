@@ -1,0 +1,103 @@
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.cont button{
+    color: white;
+    background: black;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+}
+.employee-details {
+    max-width: 600px;
+    margin: 125px;    
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.employee-details h1 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.employee-details p {
+    font-size: 16px;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.employee-details strong {
+    color: #555;
+}
+
+.employee-details p:nth-child(odd) {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+.card {
+    width: 360px;
+    height: 262px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 25px;
+    cursor: pointer;
+    justify-content: space-between;
+    padding-bottom: 15px;
+  }
+  
+  .card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .avatar {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+  
+  .user-online-indicator {
+    width: 15px;
+    height: 15px;
+    background-color: #53f45a;
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+    border-radius: 50%;
+    z-index: 4;
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .profile-name h1 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .profile-role {
+    color: #6d6d6d;
+  }
+  
+  .card-footer {
+    width: 85%;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  

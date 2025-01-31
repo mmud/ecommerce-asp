@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dash.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <header>
+        <div class="header-container">
+          <img src="images/logo.png" class="logo" alt="Store Logo">
+          <div class="menu-bar" id="menuBar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <nav>
+            <ul id="menuList">
+              <li id="homeLink"><a href="main.html" >Home</a></li>
+              <li id="aboutUsLink"><a href="about us 1 html.html">About Us</a></li>
+              <li id="dashboardLink"><a href="dash.html">Dashboard</a></li>
+              <li id="signInLink"><a href="index.html">Sign In</a></li>
+              <li id="profileLink"><a href="profile.html">Profile</a></li>
+              <li id="cartLink"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="table-container">
+        <h1>Products:</h1>
+        <table class="user-table">
+          <thead>
+            <tr>
+              <th>Main Image</th>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Description</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="productTableBody">
+          </tbody>
+        </table>
+      </div>
+      
+
+          
+   <div class="table-container" >
+    <div class="product-form-card">
+        <h1>Product Input Form</h1>
+        <form id="productForm" class="product-form">
+          <div class="form-group">
+            <label for="productName">Name:</label>
+            <input type="text" id="productName" name="Name" placeholder="Enter product name" required>
+          </div>
+          <div class="form-group">
+            <label for="productPrice">Price:</label>
+            <input type="number" id="productPrice" name="Price" step="100" placeholder="Enter product price" required>
+          </div>
+          <div class="form-group">
+            <label for="productQuantity">Quantity:</label>
+            <input type="number" id="productQuantity" name="Quantity" placeholder="Enter product quantity" required>
+          </div>
+          <div class="form-group">
+            <label for="productDescription">Description:</label>
+            <textarea id="productDescription" name="Description" placeholder="Enter product description" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="mainImage">Main Image:</label>
+            <input type="file" id="mainImage" name="MainImage" accept="image/*">
+          </div>
+          <div class="form-group">
+            <label for="additionalImage1">Additional Image 1:</label>
+            <input type="file" id="additionalImage1" name="AdditionalImage1" accept="image/*">
+          </div>
+          <div class="form-group">
+            <label for="additionalImage2">Additional Image 2:</label>
+            <input type="file" id="additionalImage2" name="AdditionalImage2" accept="image/*">
+          </div>
+          <div class="form-group">
+            <label for="additionalImage3">Additional Image 3:</label>
+            <input type="file" id="additionalImage3" name="AdditionalImage3" accept="image/*">
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+</div>
+
+
+<div class="table-container">
+
+<h1>Orders</h1>
+<table class="user-table">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Total Amount</th>
+            <th>Order Date</th>
+            <th>Customer</th>
+            <th>Products</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="orders-table-body">
+    </tbody>
+</table>
+</div>
+
+
+
+    <footer>
+        <div class="dropdown-container">
+            <div class="dropdown">
+                <label for="social-media" class="dropdown-label">Follow Us</label>
+                <ul class="dropdown-menu">
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://wa.me/01099531327" target="_blank"><i class="fa fa-whatsapp"></i> WhatsApp</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <label for="about-us" class="dropdown-label">About Us</label>
+                <ul class="dropdown-menu">
+                    <li><a href="about us 1 html.html">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <label for="contact-us" class="dropdown-label">Contact Us</label>
+                <ul class="dropdown-menu">
+                    <li><a href="tel:01099531327"><i class="fa fa-phone"></i> 01099531327</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="dash.js"></script>
+    <script src="header.js"></script>
+
+</body>
+</html>

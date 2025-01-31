@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\web project\\ECommerceAPI\\ECommerceAPI\\wwwroot\\images\\4a1a5735-a704-41b0-8edf-fc8d4e209310_8f18fc1d-7a78-49cb-8d1f-fde2cd93925c (1).png",
+      "PackagePath": "staticwebassets\\images\\4a1a5735-a704-41b0-8edf-fc8d4e209310_8f18fc1d-7a78-49cb-8d1f-fde2cd93925c (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\web project\\ECommerceAPI\\ECommerceAPI\\wwwroot\\images\\552390ce-dd26-4a8b-9726-49b0f6d7eade_8f18fc1d-7a78-49cb-8d1f-fde2cd93925c (1).png",
+      "PackagePath": "staticwebassets\\images\\552390ce-dd26-4a8b-9726-49b0f6d7eade_8f18fc1d-7a78-49cb-8d1f-fde2cd93925c (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\web project\\ECommerceAPI\\ECommerceAPI\\wwwroot\\images\\5ef44313-089a-4c66-b055-a687800f0cc4_apple-iphone-16-3-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\5ef44313-089a-4c66-b055-a687800f0cc4_apple-iphone-16-3-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\web project\\ECommerceAPI\\ECommerceAPI\\wwwroot\\images\\a12ef0ff-ef0d-4872-a11e-232122e9ac47_apple-iphone-16-ultramarine-2-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\a12ef0ff-ef0d-4872-a11e-232122e9ac47_apple-iphone-16-ultramarine-2-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\web project\\ECommerceAPI\\ECommerceAPI\\wwwroot\\images\\ac11c396-042e-445e-b07d-535059ed499d_c72195b6-426e-496a-9750-352cdbb70b61.png",
+      "PackagePath": "staticwebassets\\images\\ac11c396-042e-445e-b07d-535059ed499d_c72195b6-426e-496a-9750-352cdbb70b61.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\web project\\ECommerceAPI\\ECommerceAPI\\wwwroot\\images\\e0c2c42d-e132-4998-a7f6-f6dab212a8cb_apple-iphone-16-ultramarine-2-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\e0c2c42d-e132-4998-a7f6-f6dab212a8cb_apple-iphone-16-ultramarine-2-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\web project\\ECommerceAPI\\ECommerceAPI\\wwwroot\\images\\ee61cc0f-cfcd-4345-9a7d-6ff4bec64f3f_apple-iphone-16-3-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\ee61cc0f-cfcd-4345-9a7d-6ff4bec64f3f_apple-iphone-16-3-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\web project\\ECommerceAPI\\ECommerceAPI\\wwwroot\\images\\ef36b3ed-cebc-4ee4-ae6b-459cc561a79d_c72195b6-426e-496a-9750-352cdbb70b61.png",
+      "PackagePath": "staticwebassets\\images\\ef36b3ed-cebc-4ee4-ae6b-459cc561a79d_c72195b6-426e-496a-9750-352cdbb70b61.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ECommerceAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ECommerceAPI.props",
+      "PackagePath": "build\\ECommerceAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ECommerceAPI.props",
+      "PackagePath": "buildMultiTargeting\\ECommerceAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ECommerceAPI.props",
+      "PackagePath": "buildTransitive\\ECommerceAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

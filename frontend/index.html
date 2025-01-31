@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   
+    <header>
+        <div class="header-container">
+          <img src="images/logo.png" class="logo" alt="Store Logo">
+          <div class="menu-bar" id="menuBar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <nav>
+            <ul id="menuList">
+              <li id="homeLink"><a href="main.html" >Home</a></li>
+              <li id="aboutUsLink"><a href="about us 1 html.html">About Us</a></li>
+              <li id="dashboardLink"><a href="dash.html">Dashboard</a></li>
+              <li id="signInLink"><a href="index.html">Sign In</a></li>
+              <li id="profileLink"><a href="profile.html">Profile</a></li>
+              <li id="cartLink"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+
+
+    <h1 class="title">Welcome to our E-commerce</h1>
+    <div class="container">
+        <div class="form-container">
+            <form id="loginForm" class="form" onsubmit="login(event)">
+                <h2>Login</h2>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p class="or"><i>don't have account?</i></p>
+            <a href="reg.html" target="_blank">register</a>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="dropdown-container">
+            <div class="dropdown">
+                <label for="social-media" class="dropdown-label">Follow Us</label>
+                <ul class="dropdown-menu">
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://wa.me/01099531327" target="_blank"><i class="fa fa-whatsapp"></i> WhatsApp</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <label for="about-us" class="dropdown-label">About Us</label>
+                <ul class="dropdown-menu">
+                    <li><a href="about us 1 html.html">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <label for="contact-us" class="dropdown-label">Contact Us</label>
+                <ul class="dropdown-menu">
+                    <li><a href="tel:01099531327"><i class="fa fa-phone"></i> 01099531327</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="index.js"></script>
+    <script src="header.js"></script>
+
+</body>
+</html>

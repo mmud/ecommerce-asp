@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Product.css" rel="stylesheet">
+</head>
+<body>
+ 
+    
+
+    <header>
+        <div class="header-container">
+          <img src="images/logo.png" class="logo" alt="Store Logo">
+          <div class="menu-bar" id="menuBar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <nav>
+            <ul id="menuList">
+              <li id="homeLink"><a href="main.html" >Home</a></li>
+              <li id="aboutUsLink"><a href="about us 1 html.html">About Us</a></li>
+              <li id="dashboardLink"><a href="dash.html">Dashboard</a></li>
+              <li id="signInLink"><a href="index.html">Sign In</a></li>
+              <li id="profileLink"><a href="profile.html">Profile</a></li>
+              <li id="cartLink"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+
+
+
+
+     <!-- Chatbot toggler -->
+     <button class="chatbot-toggler">
+        <span class="fa-solid fa-comment-dots" style="color: #367c67;"></span>
+        <span class="fa-solid fa-xmark" style="color: #367c67;"></span>
+    </button>
+
+    <!-- Chatbot container -->
+    <div class="chatbot">
+        <header>
+            <h2>FAQ Chatbot</h2>
+            <span class="fa-solid fa-robot" style="color: darkgray;"></span>
+        </header>
+        <ul class="chatbox">
+            <!-- Welcome message with FAQ options -->
+            <li class="chat incoming">
+                <span class="fa-solid fa-robot" style="color: #eff8f8;"></span>
+                <p>Hi there! How can I assist you today? Choose an option below:</p>
+                <ul class="faq-options">
+                    <li data-option="1">What services do you provide?</li>
+                    <li data-option="2">How can I contact support?</li>
+                    <li data-option="3">What are your working hours?</li>
+                    <li data-option="4">Where are you located?</li>
+                </ul>
+            </li>
+        </ul>
+        <!-- Chat input -->
+        <div class="chat-input">
+            <textarea placeholder="Click an option above to get started..." disabled></textarea>
+        </div>
+    </div>
+    <div class="cont">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-image">
+                    <div class="small-image" id="image-gallery">
+                    </div>
+                    <div class="main-image">
+                        <img src="https://via.placeholder.com/150" id="imagebox" alt="Product Image">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="text">
+                <div class="content">
+                    <h2 id="product-name">Apple iPhone 16 (Blue, 128 GB)</h2> 
+                    <div class="price-box">
+                        <p class="price" id="product-price">$140</p>
+                    </div>
+                    <div class="description">
+                        <p id="product-description">This iPhone 16 comes with a sleek design, a 128GB storage capacity, and a vibrant blue color. The phone features a powerful chip, an advanced camera system, and a long-lasting battery life. Ideal for everyday use, whether for work or leisure.</p> <!-- Dynamic description -->
+                    </div>
+                    <input type="number" class="quantity" id="product-quantity" placeholder="Enter quantity" value="1"/>
+                    <button  id="add-to-cart-btn"><span class="fa fa-shopping-cart"></span> Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+ <!--footer-->
+ <footer>
+    <div class="dropdown-container">
+        <!-- Social Media Section -->
+        <div class="dropdown">
+            <label for="social-media" class="dropdown-label">Follow Us</label>
+            <ul class="dropdown-menu">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://wa.me/01099531327" target="_blank"><i class="fa fa-whatsapp"></i> WhatsApp</a></li>
+            </ul>
+        </div>
+
+        <!-- About Us Section -->
+        <div class="dropdown">
+            <label for="about-us" class="dropdown-label">About Us</label>
+            <ul class="dropdown-menu">
+                <li><a href="about us 1 html.html">About Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Us Section -->
+        <div class="dropdown">
+            <label for="contact-us" class="dropdown-label">Contact Us</label>
+            <ul class="dropdown-menu">
+                <li><a href="tel:01099531327"><i class="fa fa-phone"></i> 01099531327</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="Product.js"></script>
+<script src="header.js"></script>
+
+</body>
+</html>

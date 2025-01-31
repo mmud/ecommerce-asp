@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="header-container">
+          <img src="images/logo.png" class="logo" alt="Store Logo">
+          <div class="menu-bar" id="menuBar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <nav>
+            <ul id="menuList">
+              <li id="homeLink"><a href="main.html" >Home</a></li>
+              <li id="aboutUsLink"><a href="about us 1 html.html">About Us</a></li>
+              <li id="dashboardLink"><a href="dash.html">Dashboard</a></li>
+              <li id="signInLink"><a href="index.html">Sign In</a></li>
+              <li id="profileLink"><a href="profile.html">Profile</a></li>
+              <li id="cartLink"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      
+
+
+    
+     <!-- Chatbot toggler -->
+     <button class="chatbot-toggler">
+        <span class="fa-solid fa-comment-dots" style="color: #367c67;"></span>
+        <span class="fa-solid fa-xmark" style="color: #367c67;"></span>
+    </button>
+
+    <!-- Chatbot container -->
+    <div class="chatbot">
+        <header>
+            <h2>FAQ Chatbot</h2>
+            <span class="fa-solid fa-robot" style="color: darkgray;"></span>
+        </header>
+        <ul class="chatbox">
+            <!-- Welcome message with FAQ options -->
+            <li class="chat incoming">
+                <span class="fa-solid fa-robot" style="color: #eff8f8;"></span>
+                <p>Hi there! How can I assist you today? Choose an option below:</p>
+                <ul class="faq-options">
+                    <li data-option="1">What services do you provide?</li>
+                    <li data-option="2">How can I contact support?</li>
+                    <li data-option="3">What are your working hours?</li>
+                    <li data-option="4">Where are you located?</li>
+                </ul>
+            </li>
+        </ul>
+        <!-- Chat input -->
+        <div class="chat-input">
+            <textarea placeholder="Click an option above to get started..." disabled></textarea>
+        </div>
+    </div>
+
+
+
+<!--slider-->
+
+
+    <div class="cont-slider">
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="images\slider\1.avif" alt="">
+                </div>
+                <div class="item">
+                    <img src="images\slider\2.avif" alt="">
+                </div>
+                <div class="item">
+                    <img src="images\slider\3.avif" alt="">
+                </div>
+                <div class="item">
+                    <img src="images\slider\4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images\slider\5.jpg" alt="">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="adtext"><h1>Products</h1></div>
+    <div class="content-container">     
+        <div class="separator"></div>
+        <!-- Centered Messages -->
+        <div class="centered-message">
+            <div class="explore-message">
+                Explore Our Products<br>
+                Browse through our wide selection of products, ranging from mobile devices to cameras and audio equipment.
+            </div>
+        </div>
+        <!-- Welcome Message -->
+        <div class="welcome-message">
+            <h1>Welcome to Our Store!</h1>
+        </div>
+        <!-- Products List -->
+        <div class="products-list">
+            <!-- Products will be dynamically inserted here -->
+        </div>
+        <div id="productsList" class="products-list"></div>
+    </div>
+    <!--Categories-->
+    
+<!--Categories Section--> 
+    <div class="container-categories">
+        <!-- Categories Section -->
+        <section id="categories">
+            <br><br>
+            <h1>Categories</h1>
+            <div class="category-list">
+                <div class="category">
+                    <img src="images\smart.jpg" alt="Category 1">
+                    <p>Phones</p>
+                </div>
+                <div class="category">
+                    <img src="images\laptop.jpeg" alt="Category 2">
+                    <p>Laptops</p>
+                </div>
+                <div class="category">
+                    <img src="images\camera.jpeg" alt="Category 3">
+                    <p>Camera</p>
+                </div>
+                <div class="category">
+                    <img src="images\watch.jpeg" alt="Category 4">
+                    <p>Smartwatch</p>
+                </div>
+                <div class="category">
+                    <img src="images\tablet.jpeg" alt="Category 5">
+                    <p>Tablets</p>
+                </div>
+                <div class="category">
+                    <img src="images\headphoen.avif" alt="Category 6">
+                    <p>Headphones</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="dropdown-container">
+            <!-- Social Media Section -->
+            <div class="dropdown">
+                <label for="social-media" class="dropdown-label">Follow Us</label>
+                <ul class="dropdown-menu">
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://wa.me/01099531327" target="_blank"><i class="fa fa-whatsapp"></i> WhatsApp</a></li>
+                </ul>
+            </div>
+
+            <!-- About Us Section -->
+            <div class="dropdown">
+                <label for="about-us" class="dropdown-label">About Us</label>
+                <ul class="dropdown-menu">
+                    <li><a href="about us 1 html.html">About Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Us Section -->
+            <div class="dropdown">
+                <label for="contact-us" class="dropdown-label">Contact Us</label>
+                <ul class="dropdown-menu">
+                    <li><a href="tel:01099531327"><i class="fa fa-phone"></i> 01099531327</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="header.js"></script>
+
+</body>
+</html>
